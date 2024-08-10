@@ -1,7 +1,7 @@
-use std::net::TcpListener;
-use sqlx::PgPool;
 use email_notifications::configuration::get_config;
 use email_notifications::startup::listen;
+use sqlx::PgPool;
+use std::net::TcpListener;
 
 pub struct TestApp {
     pub address: String,

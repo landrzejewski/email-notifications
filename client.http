@@ -1,3 +1,11 @@
 GET http://localhost:8000/health
 Accept: application/json
 Content-Type: application/json
+
+###
+
+POST http://localhost:8000/subscriptions
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+
+name=jan&email=jan.kowalski@gmail.com
